@@ -147,14 +147,14 @@ const Home = ({ tabIndex }: InferGetServerSidePropsType<typeof getServerSideProp
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="https://i.ibb.co/1vJhtHY/download-1.png" alt="LiveKit Meet" width="400" height="360" />
+          <img src="https://i.ibb.co/1vJhtHY/download-1.png" alt="LiveKit Meet" width="400" height="340" />
           <h2>
             A quick, easy way to have a chat with anyone in real time.
           </h2>
         </div>
         <Tabs selectedIndex={tabIndex} onTabSelected={onTabSelected}>
-          <DemoMeetingTab label="Demo" />
-          <CustomConnectionTab label="Custom" />
+          <DemoMeetingTab label="Make a Meeting" />
+          <CustomConnectionTab label="Join a Meeting" />
         </Tabs>
       </main>
       <footer data-lk-theme="default">
