@@ -4,7 +4,7 @@
 
 html {
   color-scheme: dark;
-  background-color: #00d1cdff;
+  background-color: #1f908e
 }
 
 html,
@@ -43,7 +43,7 @@ footer {
   width: 100%;
   padding: 1.5rem 2rem;
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   background-color: var(--lk-bg);
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
