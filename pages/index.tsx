@@ -44,7 +44,7 @@ function DemoMeetingTab({ label }: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>All you need is a link and a friend!!!.</p>
+      <p style={{ margin: 0 }}>All you need is a link and a friend!</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
         Start Meeting
       </button>
@@ -103,7 +103,7 @@ function CustomConnectionTab({ label }: { label: string }) {
         </div>
         {e2ee && (
           <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
-            <label htmlFor="passphrase">Passphrase</label>
+            <label htmlFor="passphrase">Password</label>
             <input
               id="passphrase"
               type="password"
@@ -147,7 +147,7 @@ const Home = ({ tabIndex }: InferGetServerSidePropsType<typeof getServerSideProp
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="/images/livekit-meet-home.svg" alt="LiveKit Meet" width="360" height="45" />
+          <img src="/i.ibb.co/1vJhtHY/download-1.png" alt="LiveKit Meet" width="360" height="45" />
           <h2>
             A quick, easy way to have a chat with anyone in real time{' '}
             <a href="https://github.com/livekit/components-js?ref=meet" rel="noopener">
