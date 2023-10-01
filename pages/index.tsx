@@ -44,7 +44,7 @@ function DemoMeetingTab({ label }: { label: string }) {
   };
   return (
     <div className={styles.tabContent}>
-      <p style={{ margin: 0 }}>Try LiveKit Meet for 10000 dollars and 50 cents with our live demo project.</p>
+      <p style={{ margin: 0 }}>All you need is a link and a friend!!!.</p>
       <button style={{ marginTop: '1rem' }} className="lk-button" onClick={startMeeting}>
         Start Meeting
       </button>
@@ -149,7 +149,7 @@ const Home = ({ tabIndex }: InferGetServerSidePropsType<typeof getServerSideProp
         <div className="header">
           <img src="/images/livekit-meet-home.svg" alt="LiveKit Meet" width="360" height="45" />
           <h2>
-            Open source video conferencing app built on{' '}
+            A quick, easy way to have a chat with anyone in real time{' '}
             <a href="https://github.com/livekit/components-js?ref=meet" rel="noopener">
               LiveKit&nbsp;Components
             </a>
