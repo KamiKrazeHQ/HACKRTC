@@ -147,7 +147,7 @@ const Home = ({ tabIndex }: InferGetServerSidePropsType<typeof getServerSideProp
     <>
       <main className={styles.main} data-lk-theme="default">
         <div className="header">
-          <img src="https://i.ibb.co/1vJhtHY/download-1.png" alt="LiveKit Meet" width="360" height="45" />
+          <img src="https://i.ibb.co/1vJhtHY/download-1.png" alt="LiveKit Meet" width="400" height="400" />
           <h2>
             A quick, easy way to have a chat with anyone in real time{' '}
             <a href="https://github.com/livekit/components-js?ref=meet" rel="noopener">
